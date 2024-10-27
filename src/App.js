@@ -1,18 +1,18 @@
-import React, { useEffect } from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
-import './index.css';
+import React, { useEffect } from 'react';
 import {
+  Route,
   BrowserRouter as Router,
-  Routes,
-  Route
+  Routes
 } from 'react-router-dom';
+import './index.css';
 // All pages
-import Home from './pages/Home';
 import Contact from './pages/Contact';
 import DemoProduct from './pages/DemoProduct';
+import Home from './pages/Home';
 
-import {useDocTitle} from './components/CustomHook';
+import { useDocTitle } from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("Zenith Techsphere");
 
   return (
     <>

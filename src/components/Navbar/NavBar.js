@@ -23,7 +23,7 @@ const NavBar = () => {
             <div className="flex flex-row justify-between items-center py-2">
                 <div className="flex flex-row justify-normal md:px-12 md:mx-12 items-start text-left font-semibold" style={{width:"42%", marginLeft:"-56px", marginTop:"20px"}}>
                     {/* <HashLink smooth to="/#hero"><h1 className="font-extrabold text-4xl text-blue-900">Zenith Techsphere</h1></HashLink> */}
-                    <img src={zenithLogo} alt="zenithtechsphere-logo" />   
+                    <img src={zenithLogo} alt="zenithtechsphere-logo" class="logo-img"/>   
                     
                 </div>
                 <div className="group flex flex-col items-center">
